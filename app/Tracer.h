@@ -17,4 +17,5 @@ private:
   ColorSensor colorSensor; // <3>
   const int8_t mThreshold = 20;  // <4>
   const int8_t pwm = (Motor::PWM_MAX) / 6;
+  float calc_prop_value(); //① calc_prop_value メソッドを追加した
 };
