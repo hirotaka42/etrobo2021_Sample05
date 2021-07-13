@@ -7,6 +7,8 @@ Tracer tracer;  // <4>
 Clock clock;    // <5>
 
 void tracer_task(intptr_t exinf) { // <1>
+
+  //ここにIF文を置き　ボタンで開始させる
   tracer.run(); // <2>
   ext_tsk();
 }
